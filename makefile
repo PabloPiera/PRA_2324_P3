@@ -3,4 +3,4 @@ bin/testTableEntry: testTableEntry.cpp TableEntry.h
 	g++ -o bin/testTableEntry testTableEntry.cpp
 
 clean:
-        rm -rf *.o *.gch bin
+	rm -rf *.o *.gch bin
